@@ -8,7 +8,7 @@
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: none;
     font-size: 25px;
   }
@@ -28,16 +28,16 @@
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 12px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 17px;
   }
   
   .topnav input {
     float: right;
     text-align: center;
     text-decoration: none;
-    margin: 14px 10px;
+    margin: 11px 5px;
     font-size: 15px;
   }
 
