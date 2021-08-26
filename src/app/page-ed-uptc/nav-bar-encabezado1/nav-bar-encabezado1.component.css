@@ -1,0 +1,47 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(255, 204, 51);
+    color: black;
+  }
+
+  .topnav .icon {
+    display: none;
+  }
+
+  
+  .topnav b {
+    float: right;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .topnav input {
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    margin: 14px 10px;
+    font-size: 15px;
+  }
+
+  .topnav b:hover {
+    background-color: rgb(255, 204, 51);
+    color: black;
+  }
