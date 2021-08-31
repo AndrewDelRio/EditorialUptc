@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { PageEdUptcComponent } from './page-ed-uptc/page-ed-uptc.component';
 import { NavBarEncabezado1Component } from './page-ed-uptc/nav-bar-encabezado1/nav-bar-encabezado1.component';
 import { CarouselUptcComponent } from './page-ed-uptc/carousel-uptc/carousel-uptc.component';
+import { EventNewsComponent } from './page-ed-uptc/event-news/event-news.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PageEdUptcComponent,
     NavBarEncabezado1Component,
-    CarouselUptcComponent
+    CarouselUptcComponent,
+    EventNewsComponent
   ],
   imports: [
     BrowserModule,
