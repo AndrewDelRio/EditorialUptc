@@ -11,10 +11,6 @@ const routes: Routes = [
     path: '', component: PageEdUptcComponent,
     children: [
       {
-        path: '',
-        component: CarouselUptcComponent
-      },
-      {
         path: 'books',
         component: BooksComponent
       },
