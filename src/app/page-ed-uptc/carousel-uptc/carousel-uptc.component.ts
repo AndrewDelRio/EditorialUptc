@@ -9,17 +9,12 @@ declare const $: any;
 export class CarouselUptcComponent implements OnInit {
   constructor() {}
   ngOnInit(): void {
-    $('.carousel').carousel({
-      dist: 0,
-      padding: 0,
-      fullWidth: true,
-      indicators: true,
-      duration: 100,
+    $(document).ready(function(){
+      $('.slider').slider({
+        fullWidth:true,
+        height:600,
+        duration:600
+      })
     });
-    autoplay();
-    function autoplay() {
-      $('.carousel').carousel('next');
-      setTimeout(autoplay, 4000);
-    }
   }
 }

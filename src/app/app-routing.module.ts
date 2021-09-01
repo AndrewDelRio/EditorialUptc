@@ -8,27 +8,34 @@ import { PageEdUptcComponent } from './page-ed-uptc/page-ed-uptc.component';
 
 const routes: Routes = [
   {
-    path: '', component: PageEdUptcComponent,
-    children: [
-      {
-        path: 'books',
-        component: BooksComponent
-      },
-      {
-        path: 'convocations',
-        component: ConvocationsComponent
-      }
-      ,
-      {
-        path: 'novelties',
-        component: NoveltiesComponent
-      }
-    ]
-  }
+    path: '',
+    redirectTo: '/home',
+    pathMatch: 'full',
+  },
+  {
+    path: 'home',
+    component: PageEdUptcComponent,
+  },
+  {
+    path: 'home/banner',
+    component: CarouselUptcComponent,
+  },
+  {
+    path: 'home/books',
+    component: BooksComponent,
+  },
+  {
+    path: 'home/convocations',
+    component: ConvocationsComponent,
+  },
+  {
+    path: 'home/novelties',
+    component: NoveltiesComponent,
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
