@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-nav-bar-encabezado1',
   templateUrl: './nav-bar-encabezado1.component.html',
-  styleUrls: ['./nav-bar-encabezado1.component.css']
+  styleUrls: ['./nav-bar-encabezado1.component.scss']
 })
 export class NavBarEncabezado1Component implements OnInit {
 
