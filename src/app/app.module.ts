@@ -10,6 +10,7 @@ import { NavegationPageComponent } from './page-ed-uptc/navegation-page/navegati
 import { BooksComponent } from './page-ed-uptc/books/books.component';
 import { NoveltiesComponent } from './page-ed-uptc/novelties/novelties.component';
 import { ConvocationsComponent } from './page-ed-uptc/convocations/convocations.component';
+import { FooterComponent } from './page-ed-uptc/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ConvocationsComponent } from './page-ed-uptc/convocations/convocations.
     NavegationPageComponent,
     BooksComponent,
     NoveltiesComponent,
-    ConvocationsComponent
+    ConvocationsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
