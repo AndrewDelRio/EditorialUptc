@@ -11,6 +11,7 @@ import { BooksComponent } from './page-ed-uptc/books/books.component';
 import { NoveltiesComponent } from './page-ed-uptc/novelties/novelties.component';
 import { ConvocationsComponent } from './page-ed-uptc/convocations/convocations.component';
 import { FooterComponent } from './page-ed-uptc/footer/footer.component';
+import { SocialNetService } from './services/social-net.service';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,7 @@ import { FooterComponent } from './page-ed-uptc/footer/footer.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [SocialNetService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
