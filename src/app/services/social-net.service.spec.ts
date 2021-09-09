@@ -4,7 +4,7 @@ import {HttpClientTestingModule,HttpTestingController} from '@angular/common/htt
 import {SocialNet} from '../page-ed-uptc/nav-bar-encabezado1/social-net'
 
 
-fdescribe('SocialNetService', () => {
+describe('SocialNetService', () => {
   let service: SocialNetService;
   let injector: TestBed;
   let httpMock: HttpTestingController;

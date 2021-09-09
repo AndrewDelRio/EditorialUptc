@@ -12,6 +12,7 @@ import { NoveltiesComponent } from './page-ed-uptc/novelties/novelties.component
 import { ConvocationsComponent } from './page-ed-uptc/convocations/convocations.component';
 import { FooterComponent } from './page-ed-uptc/footer/footer.component';
 import { SocialNetService } from './services/social-net.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,13 +24,10 @@ import { SocialNetService } from './services/social-net.service';
     BooksComponent,
     NoveltiesComponent,
     ConvocationsComponent,
-    FooterComponent
+    FooterComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [SocialNetService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
