@@ -12,6 +12,10 @@ module.exports = function (config) {
       require('karma-coverage'),
       require('@angular-devkit/build-angular/plugins/karma')
     ],
+    files:[
+      "./node_modules/jquery/dist/jquery.min.js",
+      "./node_modules/materialize-css/dist/js/materialize.min.js"
+    ],
     client: {
       jasmine: {
         // you can add configuration options for Jasmine here
@@ -37,6 +41,9 @@ module.exports = function (config) {
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
+<<<<<<< HEAD
+    browsers: ['Chrome'],
+=======
     browsers: ['ChromeHeadlessNoSandbox'],
     customLaunchers: {
       ChromeHeadlessNoSandbox: {
@@ -44,6 +51,7 @@ module.exports = function (config) {
         flags: ['--no-sandbox']
       }
     },
+>>>>>>> master
     singleRun: true,
     restartOnFileChange: true
   });
